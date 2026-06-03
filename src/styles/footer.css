@@ -1,0 +1,27 @@
+.footer{
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:30px;
+
+    padding:60px 80px;
+
+    background:#dcefdc;
+}
+
+.footer h3{
+    margin-bottom:15px;
+}
+
+.footer p{
+    margin-bottom:10px;
+}
+
+@media(max-width:768px){
+
+    .footer{
+        flex-direction:column;
+        padding:40px 20px;
+    }
+}

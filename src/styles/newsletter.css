@@ -1,0 +1,26 @@
+.newsletter{
+    background:#dcefdc;
+
+    text-align:center;
+
+    padding:120px 20px;
+}
+
+.newsletter h2{
+    font-size:70px;
+}
+
+.newsletter p{
+    margin:20px 0;
+}
+
+.newsletter button{
+    padding:15px 30px;
+
+    border:none;
+
+    background:black;
+    color:white;
+
+    border-radius:30px;
+}

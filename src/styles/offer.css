@@ -1,0 +1,51 @@
+.offer{
+    padding:120px 80px;
+}
+
+.offer-heading{
+    font-size:70px;
+    margin-bottom:60px;
+}
+
+.offer-item{
+    display:grid;
+    grid-template-columns:1fr 2fr auto;
+    align-items:center;
+
+    padding:30px 0;
+
+    border-bottom:1px solid #ddd;
+}
+
+.offer-small{
+    color:#666;
+    font-size:14px;
+}
+
+.offer-title{
+    font-size:36px;
+}
+
+.offer-arrow{
+    font-size:32px;
+}
+
+@media(max-width:768px){
+
+    .offer{
+        padding:60px 20px;
+    }
+
+    .offer-heading{
+        font-size:40px;
+    }
+
+    .offer-item{
+        grid-template-columns:1fr;
+        gap:10px;
+    }
+
+    .offer-title{
+        font-size:24px;
+    }
+}
